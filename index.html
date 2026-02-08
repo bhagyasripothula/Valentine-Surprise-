@@ -105,11 +105,6 @@ video{
 
 <body>
 
-<!-- BACKGROUND MUSIC -->
-<audio id="bgMusic" loop>
-  <source src="bg-music.mp3" type="audio/mp3">
-</audio>
-
 <!-- FIXED HEARTS -->
 <div class="fixed-heart" style="top:10%;left:15%">❤️</div>
 <div class="fixed-heart" style="top:20%;left:75%">💖</div>
@@ -176,10 +171,10 @@ video{
 <!-- PAGE 6 VIDEO -->
 <div class="container" id="page6">
   <h1>🎥 Just For You ❤️</h1>
-  <video controls playsinline preload="auto">
-    <source src="video.mp4" type="video/mp4">
-    Your browser does not support video.
+ <video controls>
+    <source src="video.mp4" type="video/mp4" height="200">
   </video>
+
   <br>
   <button class="yes" onclick="goPage(7)">Next 🤍</button>
 </div>
